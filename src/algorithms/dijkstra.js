@@ -12,8 +12,8 @@ function dijkstra(grid, startNode, finishNode) {
 }
 
 // sort nodes function - take in unvisited nodes and sort
-function sortNodesByDistance() {
-
+function sortNodesByDistance(unvisitedNodes) {
+    unvisitedNodes.sort((nodeA, nodeB) => nodeA.distance - nodeB.distance);
 }
 
 // update visited nodes function
