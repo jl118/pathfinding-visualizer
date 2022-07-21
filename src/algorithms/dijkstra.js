@@ -6,10 +6,12 @@ compute shortest path by backtracking from the finish node */
 function dijkstra(grid, startNode, finishNode) {
     const visitedNodes = [];
     startNode.distance = 0;
-
+    // create unvisitedNodes from getAllNodes
+    const unvisitedNodes = getAllNodes(grid);
+    // while loop to evaluate nodes
 }
 
-// sort nodes function
+// sort nodes function - take in unvisited nodes and sort
 function sortNodesByDistance() {
 
 }
