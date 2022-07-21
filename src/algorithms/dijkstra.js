@@ -10,11 +10,31 @@ function dijkstra(grid, startNode, finishNode) {
 }
 
 // sort nodes function
+function sortNodesByDistance() {
+
+}
 
 // update visited nodes function
+function updateUnvisitedNodes(node, grid) {
+
+}
 
 // get unvisited nodes function
+function getUnvisitedNodes(node, grid) {
+
+}
 
 // get all nodes function
+function getAllNodes(grid) {
+    // initialize nodes array
+    const nodes = [];
+    // nested for loops to add all nodes in each row to nodes array
+    for (const row of grid) {
+        for (const node of row) {
+            nodes.push(node);
+        }
+    }
+    return nodes;
+}
 
 // after finishNode is found, create function to return shortest path
