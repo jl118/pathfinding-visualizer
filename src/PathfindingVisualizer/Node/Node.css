@@ -6,11 +6,11 @@
   }
   
   .node-finish {
-    background-color: red;
+    background-color: rgb(207, 81, 67);
   }
   
   .node-start {
-    background-color: green;
+    background-color: rgb(23, 162, 97);
   }
   
   .node-visited {
